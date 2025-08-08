@@ -1,0 +1,378 @@
+.api-form1 * {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: roboto, sans-serif !important;
+}
+.api-form1 .submit:hover {
+  background: #2e7d32;
+}
+.api-form1 .form-header {
+  text-align: center !important;
+}
+.cta-btn1 a,
+.cb-con .submit,
+.api-form1 .submit,
+.cb-but,
+.blg {
+  outline: none !important;
+  max-width: 100% !important;
+  font-style: normal !important;
+  box-sizing: border-box !important;
+  line-height: 1.5 !important;
+  position: static !important;
+  height: auto !important;
+  box-shadow: none !important;
+  text-align: center !important;
+  clear: both !important;
+  font-weight: 700 !important;
+  border: 0;
+  background: #388e3c;
+  color: #fff !important;
+  font-size: 22px !important;
+  text-decoration: none !important;
+  padding: 15px 35px !important;
+  border-radius: 35px !important;
+  width: 100% !important;
+  display: block !important;
+  cursor: pointer !important;
+  margin: 15px 0 0 !important;
+  text-transform: none !important;
+}
+.api-form1 .text1 a:hover {
+  text-decoration: underline !important;
+  color: #a52626 !important;
+}
+.api-form1 .text1 a {
+  box-shadow: none !important;
+  font-weight: 700 !important;
+  color: #ca2d2d !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline !important;
+}
+.api-form1 *:before,
+.api-form1 *:after {
+  content: none;
+}
+.cb-con label,
+.api-form1 label {
+  font-style: normal;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  cursor: text !important;
+  text-align: left !important;
+  display: block !important;
+  color: #222 !important;
+  margin: 0 0 2.5px 20px !important;
+  padding: 0 !important;
+}
+.api-form1 .country-flag {
+  width: 25px !important;
+  position: relative !important;
+  top: 2px !important;
+}
+.api-form1 p.delivery {
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #ddd 50%,
+    transparent 100%
+  ) !important;
+  margin: 15px 0 0 !important;
+  padding: 5px !important;
+  text-align: center !important;
+  font-size: 16px !important;
+  color: #555 !important;
+}
+.api-form1 .footnote1 {
+  line-height: 15px !important;
+  text-indent: 0 !important;
+  font-size: 10px !important;
+  margin: 10px 0 0 !important;
+  text-align: center !important;
+  padding: 0 !important;
+  color: #888 !important;
+  border-bottom: none!important;
+}
+.api-form1 .text {
+  border: none !important;
+  text-align: center !important;
+  color: #222 !important;
+  padding: 0 !important;
+  font-size: 18px !important;
+  width: 100% !important;
+  float: none !important;
+  line-height: 25px !important;
+  font-weight: 700 !important;
+  margin: 10px 0 !important;
+}
+.api-form1 form {
+  padding: 0 !important;
+  background: 0 0 !important;
+  margin: 15px auto 0 !important;
+  border: none;
+}
+.api-form1 .form-body .text .offer-name,
+.api-form1 .form-body .text .offer-price {
+  font: 700 18px/1.7 roboto, sans-serif !important;
+  color: #ca2d2d !important;
+}
+.api-form1 {
+  background: #fff !important;
+  box-sizing: border-box !important;
+  max-width: 465px !important;
+  position: relative !important;
+  margin: 0px auto !important;
+  text-align: center !important;
+  border: 2.5px dashed #ddd !important;
+  border-radius: 2.5px !important;
+  padding: 30px !important;
+  clear: both !important;
+}
+.api-form1 .deadline1 {
+  font: 700 15px/1.7 roboto, sans-serif !important;
+  color: #222 !important;
+  text-align: center !important;
+  margin: 0 !important;
+}
+.time_remains{
+    font: 700 1.1em/1.5 roboto, sans-serif!important;
+    color: red!important;
+}
+.api-form1 .name:invalid,
+.api-form1 .phone:invalid,
+.api-form1 .country:invalid,
+.api-form1 .name,
+.api-form1 .phone,
+.api-form1 .country {
+  font-style: normal;
+  transition: 0.25s !important;
+  line-height: 20px !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  background: 0 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  height: auto !important;
+  background: #f2f2f2 !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+  border: 2.5px solid #ddd !important;
+  border-radius: 35px !important;
+  padding: 15px !important;
+  margin: 0 0 15px !important;
+}
+.api-form1.name:focus,
+.api-form1 .phone:focus,
+.api-form1 .country:focus {
+  border: 2.5px solid #aaa !important;
+}
+.api-form1 .cta-form {
+  margin: 0 !important;
+}
+.api-form1 {
+  padding: 15px !important;
+}
+.api-form1 .submit {
+  font-size: 16px !important;
+  padding: 15px 5px !important;
+}
+.form-header1 .form-header1 {
+  text-align: center !important;
+}
+.api-form1 .cta-form1 {
+  margin: 0 !important;
+}
+.cb-con1 .cta-form1 {
+  text-align: center !important;
+  margin-top: 30px !important;
+  margin-bottom: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+.cb-con1 .cta-form1 {
+  margin-top: 15px !important;
+  display: block;
+}
+.product-image1 {
+  position: relative !important;
+  margin: 0 auto !important;
+  background: #fff !important;
+  text-align: center !important;
+  max-width: 300px;
+}
+.product-image1 img {
+  margin: 0px auto 0px auto !important;
+  border: none !important;
+  padding: 0 !important;
+  width: 71% !important;
+  z-index: 0 !important;
+  position: static !important;
+}
+.cb-con1 .product-image1 {
+  max-width: 300px;
+}
+.cb-tex1 .product-image1 {
+}
+.product-banner-text1 {
+  font-size: 12px !important;
+}
+.product-banner1 {
+  width: 117px !important;
+  height: 117px !important;
+}
+.product-banner1 {
+  opacity: 0.9 !important;
+  display: table !important;
+  width: 117px !important;
+  height: 117px !important;
+  line-height: 25px !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  background: url("urn:scrapbook:download:error:https://zdravklibor.click/landerfiles/accets/product-banner.png") no-repeat center !important;
+  background-size: 100% !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  text-decoration: none !important;
+}
+.product-banner-text1 {
+  text-align: center !important;
+  margin: 0 !important;
+  font-weight: 700 !important;
+  color: #f2f2f2 !important;
+  display: table-cell !important;
+  font-size: 20px !important;
+  vertical-align: middle !important;
+  position: relative;
+}
+.product-banner-text1:after {
+  position: relative;
+  top: -5px;
+  left: -2.5px;
+}
+.product-banner-text1 {
+  font-size: 16px !important;
+}
+.api-form1 .form-body1 .text1 .offer-name1,
+.api-form1 .form-body1 .text1 .offer-price1 {
+  color: #ca2d2d !important;
+  font-weight: 700 !important;
+}
+#text1 {
+  margin-top: 40px;
+  vertical-align: top;
+  display: inline-block;
+  width: 75%;
+  margin-right: 0;
+  text-align: center;
+}
+.offer-name1 {
+  color: #ffeb3b !important;
+}
+.cb-con1 .name1:invalid,
+.cb-con1 .country:invalid,
+.cb-con1 .name1,
+.cb-con1 .country,
+.api-form1 .name1:invalid,
+.api-form1 .phone:invalid,
+.api-form1 .country:invalid,
+.api-form1 .name1,
+.api-form1 .name1:focus,
+.cta-btn1 *,
+.cta-btn1 {
+  text-align: center !important;
+  max-width: 445px;
+  margin: 15px auto;
+}
+.api-form1 .text1 {
+  border: none !important;
+  text-align: center !important;
+  color: #222 !important;
+  padding: 0 !important;
+  font-size: 18px !important;
+  width: 100% !important;
+  float: none !important;
+  line-height: 25px !important;
+  font-weight: 700 !important;
+  margin: 10px 0 !important;
+}
+@media (max-width: 768px) {
+  .api-form1 .deadline1 {
+    font-size: 10px !important;
+  }
+  .api-form1 .text {
+    font-size: 15px !important;
+  }
+  .api-form1 .name:invalid,
+  .api-form1 .phone:invalid,
+  .api-form1 .country:invalid,
+  .api-form1 .name,
+  .api-form1 .phone,
+  .api-form1 .country {
+    padding: 10px !important;
+    margin: 0 0 10px !important;
+  }
+  .cta-btn1 a,
+  .cb-con .submit,
+  .api-form1 .submit,
+  .cb-but,
+  .blg {
+    margin: 10px 0 0 !important;
+    font-size: 18px !important;
+    padding: 10px 25px !important;
+  }
+  .api-form1 .footnote1 {
+    font-size: 8px !important;
+  }
+  .close-popup {
+    right: 0 !important;
+  }
+  .pop-up-heading {
+    font-size: 25px !important;
+  }
+  .pop-up-text {
+    font-size: 13px !important;
+  }
+  .main {
+    width: 100%;
+  }
+  .main-btn {
+    font-size: 16px !important;
+  }
+}
+.order_block{
+  padding-left: 0!important;
+  padding-right: 0!important;
+  font-family: roboto, sans-serif !important;
+  padding-bottom: 2em !important;
+  box-shadow: none!important;
+  width: 100%!important;
+  border: none!important;
+  max-width: 100%!important;
+  line-height: 1.7 !important;
+}
+
+.api-form1 .form_control_vik_group { margin: 0px 0px 15px 0px!important; }
+.form_control_vik_group input.form_control_vik.name, .form_control_vik_group input.form_control_vik.phone { margin:0px!important; text-align:left!important; }
+input.form_control_vik:focus::placeholder {
+  color: transparent;
+}
+input.form_control_vik.error { border-color: #c92f54!important; color: #c92f54!important; }
+input.form_control_vik.good { border-color: #388e3c!important; color: #388e3c!important; }
+.api-form1 .error_note { text-align:center; margin:4px 0px 0px 0px!important; font-size:13px; line-height: 16px; color: #c92f54; }
+
+input.form_control_vik.error:focus {
+  border-color: #c92f54!important;
+}
+
+input.form_control_vik.good:focus {
+  border-color: #0d7f56!important;
+}
+
+.mt-3 {
+ margin-top: 30px;
+}

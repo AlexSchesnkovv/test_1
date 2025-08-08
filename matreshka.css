@@ -1,0 +1,400 @@
+.matreshka__container {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.matreshka__title {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px !important;
+    margin-bottom: 25px;
+    background-color: #3a4752;
+    padding: 10px 0;
+    border-radius: .5em;
+}
+
+.matreshka__item img {
+    max-width: 250px;
+    width: 100%;
+    padding: 0 !important;
+    height: auto;
+}
+
+
+.win__matreshka span, .win__matreshka p {
+    color: #8d7a7a !important;
+}
+
+.win__matreshka {
+    display: none;
+    position: relative;
+    color: #8d7a7a !important;
+}
+
+.win__matreshka p {
+    font-family: 'poetsen_oneregular' !important;
+    font-size: 50px !important;
+    text-align: center !important;
+}
+
+.sale {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+
+
+.grats span, p.grats {
+    color: #f52626 !important;
+}
+
+picture.grats:after {
+    content: none;
+}
+
+.grats:after {
+    content: '';
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    z-index: 2;
+    background-size: cover;
+    background-image: url("");
+}
+
+.order_block, .spin-result-wrapper {
+    display: none;
+}
+
+.spin-result-wrapper {
+    max-width: 100%;
+    display: none;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.pop-up-window {
+    position: relative;
+    max-width: 400px;
+    right: 0;
+    left: 0;
+    top: 40%;
+    margin: 0 auto;
+    background: #fff none repeat scroll 0 0;
+    text-align: center;
+    padding: 10px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    animation: .7s ease 0s normal none 1 running pop-up-appear;
+}
+
+
+.super-rotation {
+    -webkit-animation-name: super-rotation;
+    animation-name: super-rotation;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.cursor-text:active {
+    -webkit-box-shadow: rgba(0, 0, 0, .4) 0 0 5px inset;
+    box-shadow: rgba(0, 0, 0, .4) 0 0 5px inset;
+}
+
+.pop-up-layer {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, .7) !important;
+    z-index: 99 !important;
+}
+
+.pop-up-layer-show {
+    display: block;
+}
+
+.text_small {
+    font-size: .5em !important;
+    font-weight: 400 !important;
+}
+
+@keyframes pop-up-appear {
+
+    0% {
+
+        transform: translateY(-2000px)
+    }
+
+    30% {
+
+        transform: translateY(100px)
+    }
+
+    100% {
+
+        transform: translateY(0)
+    }
+}
+
+@keyframes pop-up-appear-before {
+
+    0% {
+
+        transform: scale(0)
+    }
+
+    100% {
+
+        transform: scale(1)
+    }
+}
+
+@keyframes pop-up-appear-after {
+
+    0% {
+
+        opacity: 0
+    }
+
+    100% {
+
+        opacity: 1
+    }
+}
+
+.submit-roulette:hover {
+    background: #b00;
+    transition: background .3s;
+}
+
+.additional-form-fields {
+    padding-left: 5px;
+    height: 42px;
+    margin-bottom: 10px;
+}
+
+#order_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-roulette:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+.input-roulette::placeholder {
+    font-size: .9em;
+}
+
+.input-roulette {
+    padding-left: 5px;
+    height: 42px;
+    margin-bottom: 10px;
+    max-width: 352px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .matreshka__item img {
+        max-width: 155px;
+    }
+
+    .win p {
+        font-size: 44px;
+    }
+
+    .sale {
+        top: 10%
+    }
+
+    .win p {
+        font-size: 36px;
+    }
+
+    .sale {
+        top: 15%
+    }
+}
+
+@media (max-width: 540px) {
+    .win p {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sale {
+        top: 8%
+    }
+}
+
+@media (max-width: 420px) {
+    .win p {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 360px) {
+    .win p {
+        font-size: 26px;
+    }
+
+    .sale {
+        top: 5%
+    }
+}
+
+
+@keyframes pop-up-appear {
+
+    0% {
+
+        transform: translateY(-2000px);
+
+    }
+    30% {
+
+        transform: translateY(100px);
+
+    }
+    100% {
+
+        transform: translateY(0px);
+
+    }
+}
+
+@keyframes pop-up-appear-before {
+
+    0% {
+
+        transform: scale(0);
+
+    }
+    100% {
+
+        transform: scale(1);
+
+    }
+}
+
+@keyframes pop-up-appear-after {
+
+    0% {
+
+        opacity: 0;
+
+    }
+    100% {
+
+        opacity: 1;
+
+    }
+}
+
+
+.cursor-text {
+    line-height: 45px !important;
+    font-size: 12px !important;
+}
+
+@media (max-width: 1023px) {
+    .article-grid__right {
+        display: none !important;
+    }
+}
+
+.sale-red, .sale-blue, .sale-yellow {
+    font-size: 50px !important;
+}
+
+p.sale {
+    display: block !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+    padding: 0 !important;
+}
+
+@media screen and (max-width: 480px) {
+
+    .win__matreshka p {
+        display: block !important;
+        width: 80px;
+    }
+
+    .sale-blue, .sale-red, .sale-yellow, .win__matreshka p {
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .grats:after {
+        bottom: -20px;
+    }
+
+    .sale {
+        top: 20%;
+    }
+
+    p.sale {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .win__matreshka p {
+        display: block !important;
+        width: 80px;
+    }
+
+    .sale-blue, .sale-red, .sale-yellow, .win__matreshka p {
+        font-size: 28px !important;
+        text-align: center;
+    }
+
+    .grats:after {
+        bottom: -20px;
+    }
+
+    .sale {
+        top: 20%;
+    }
+
+    p.sale {
+        display: block !important;
+        margin: 0 !important;
+    }
+}
