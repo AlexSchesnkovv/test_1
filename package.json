@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Bla bla bla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSchesnkovv/test_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSchesnkovv/test_1/issues"
+  },
+  "homepage": "https://github.com/AlexSchesnkovv/test_1#readme",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "google-translate-api-x": "^10.5.1",
+    "jsdom": "^23.2.0"
+  }
+}
